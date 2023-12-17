@@ -1,6 +1,6 @@
 -- Codigo que executa todas as operacoes logicas/comparacao/condicao
 
-code logico
+code logica
 start
     unalterable symbol char1 << 'a'.
     unalterable symbol char2 << 'b'.
