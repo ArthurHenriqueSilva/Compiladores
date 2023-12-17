@@ -1,0 +1,56 @@
+-- Codigo que executa todas as operacoes logicas/comparacao/condicao
+
+code logico
+start
+    unalterable symbol char1 << 'a'.
+    unalterable symbol char2 << 'b'.
+
+    unalterable number n1 << 2.
+    alterable number n2 << 1.
+
+
+    alterable answer parity << no.
+    alterable number i.
+
+    alterable answer stop << no.
+
+    in case that (char1 == char2) do show(0) otherwise show(1).
+
+    as long as (n1 * n2 < 200) do
+        in case that(n2 < 10) do 
+            n2 << n2 + 1. 
+        otherwise 
+            n2 << n2 + 10.
+
+    considering i from 0 to 100 by 3 do
+        in case that(i%2 == 0) do 
+            parity << yes.
+            show("i is even!"). 
+        otherwise 
+            parity << no.
+            show("i is not even").
+    
+    n2 << 10.
+    as long as (stop != yes) do
+        in case (n2 >= 1) do 
+            n2 << n2 - 1. 
+        otherwise
+            stop << yes.
+
+    considering n2 from 10 to 0 by -1 do
+        in case that (n2 <= 5) do 
+            show("Hurry up!").
+        otherwise
+            show("There is still time").
+    
+    n2 << 5.
+    in case that (n2 > 5) do show("It`s greater.").
+
+    stop << no.
+    show(not stop).
+
+    show(stop and n2 == 3).
+    show(no stop or (n2 - 3) != 1).
+    show(stop xor n2%2==0).
+
+finish
