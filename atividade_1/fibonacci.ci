@@ -1,3 +1,4 @@
+-- Algoritmo que calcula o n-esimo termo da sequencia de fibonacci
 code fibonacci
 start
     alterable number out << 0.

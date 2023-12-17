@@ -1,3 +1,4 @@
+-- Algoritmo que calcula fatorial(n).
 code fatorial
 start
     alterable number out << 1.
