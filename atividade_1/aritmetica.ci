@@ -2,8 +2,8 @@
 code aritmetica
 start
 
-    unalterable number x.
-    unalterable number y.
+    unalterable number x << 10.
+    unalterable number y << 2.
     alterable number z.
 
     --soma
