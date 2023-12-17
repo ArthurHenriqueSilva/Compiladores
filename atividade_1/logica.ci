@@ -43,8 +43,8 @@ start
         otherwise
             show("There is still time").
     
-    n2 << 5.
-    in case that (n2 > 5) do show("It`s greater.").
+    n2 << 3.
+    in case that (n2 < 5) do show("It`s smaller.").
 
     stop << no.
     show(not stop).
