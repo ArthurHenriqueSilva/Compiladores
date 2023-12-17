@@ -1,0 +1,31 @@
+-- Codigo que utiliza todas as operacoes aritmeticas da linguagem
+code aritmetica
+start
+
+    unalterable number x.
+    unalterable number y.
+    alterable number z.
+
+    --soma
+    z << x + y.
+    show(z).
+
+    -- subtracao
+    z << x - y
+    show(z).
+
+    -- multiplicacao
+    z << x * y
+    show(z).
+
+    -- divisao
+    z << x / y
+    show(z).
+
+    -- modulo (resto de divisao)
+    z << x % y
+    show(z).
+
+    
+
+finish
