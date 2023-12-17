@@ -1,0 +1,42 @@
+{-
+  algoritmo bubble sort que faz a conta do numero de swaps realizados ao longo do codigo
+-}
+
+code bubble_sort
+start
+  alterable number i.
+  alterable number j.
+  alterable number aux << 0.
+  alterable number swap << 0.
+  alterable number vector [10] array.
+
+  considering i from 1 to 10 do
+  start
+    show("enter a number: ").
+    capture(array[i]).
+  finish
+  
+  considering i from 1 to 10 do
+  start
+    considering j from 1 to 10 do
+    start
+      in case that array[j] > array[j + 1] do
+      start
+        aux << array[j].
+        array[j] << array[j + 1].
+        array[j + 1] << aux.
+        swaps << swaps + 1.
+      finish
+    finish
+  finish
+
+  show("[").
+  considering i from 1 to 9 do
+  start
+    show(array[i]).
+    show(",").
+  finish
+  show(array[10])
+  show("]").
+
+finish
