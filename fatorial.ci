@@ -1,0 +1,9 @@
+code fatorial
+start
+    alterable number out << 1.
+    alterable number i.
+    unalterable number n << capture().
+    considering i from n to 1 by -1 do
+        out << out * i.
+    show(out).
+finish
