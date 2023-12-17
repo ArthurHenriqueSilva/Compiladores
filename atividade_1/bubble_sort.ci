@@ -25,7 +25,7 @@ start
         aux << array[j].
         array[j] << array[j + 1].
         array[j + 1] << aux.
-        swaps << swaps + 1.
+        swap << swap + 1.
       finish
     finish
   finish
